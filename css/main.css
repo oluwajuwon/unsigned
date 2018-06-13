@@ -1,4 +1,14 @@
 
+.section-1{
+    background-image: url(../images/header.png);
+    height: 100%;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    
+    color: white;
+    text-align: left
+}
 
 .section-3{
     background-image: url(../images/become-2.jpg);
@@ -6,5 +16,10 @@
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
+    color: white;
+    text-align: left
+}
 
+.section-3 h1{
+    margin-top: 50px
 }

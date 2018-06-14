@@ -12,6 +12,16 @@ body{
     font-family: poppins
 }
 
+a{
+    text-decoration: none;
+    color: #5b5b5b;
+}
+
+a:hover{
+    color: #888888;
+    text-decoration: none;
+}
+
 .section-1{
     background-image: url(../images/back.jpg);
     height: 100%;
@@ -27,6 +37,14 @@ body{
     font-family: poppins-bold;
     font-weight: bolder;
     font-size: 70px
+}
+
+.section-1 .text{
+    margin-top: 150px
+}
+
+.section-1 .dot{
+    color: #f65709
 }
 
 .section-2{
@@ -50,7 +68,7 @@ body{
     background-repeat: no-repeat;
     background-size: cover;
     color: white;
-    padding: 70px 0 70px 0
+    padding: 50px 0 90px 0
 }
 
 .section-3 h1{
@@ -73,18 +91,49 @@ body{
     margin-top: 30px
 }
 
+.section-5{
+    background-color: #f7f6f6;
+    text-align: center;
+    padding: 50px 0
+}
+
+.section-6{
+    padding: 70px 20px;
+    background: url(../images/premium.png);
+    background-attachment: scroll;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+    text-align: center
+}
+
 .btn-explore {
     background-color: #24004a;
-    padding: 10px 15px;
+    padding: 10px 50px;
     border: 0;
     color: #fff
 }
 
 .btn-join {
     background-color: #fff;
-    padding: 10px 20px;
+    padding: 10px 50px;
     color: #24004a;
+    border: 0;
 
+}
+
+footer{
+    background-color: #151416;
+    color: #5b5b5b;
+    padding: 40px
+}
+
+.last{
+    text-align: center;
+    padding: 10px 0 5px 0;
+    background-color: #100f10;
+    color: #5b5b5b;
 }
 
 @media screen and (max-width:420px){

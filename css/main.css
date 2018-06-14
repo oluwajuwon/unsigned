@@ -1,25 +1,92 @@
+@font-face{
+    font-family: poppins;
+    src: url('../fonts/poppins/Poppins-Regular.ttf');
+}
+
+@font-face{
+    font-family: poppins-bold;
+    src: url('../fonts/poppins/Poppins-ExtraBold.ttf')
+}
+
+body{
+    font-family: poppins
+}
 
 .section-1{
-    background-image: url(../images/header.png);
+    background-image: url(../images/back.jpg);
     height: 100%;
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
-    
+    background-size: cover;
     color: white;
     text-align: left
+}
+
+.section-1 h1{
+    font-family: poppins-bold;
+    font-weight: bolder;
+    font-size: 70px
+}
+
+.section-2{
+    text-align: center;
+    padding: 70px 0 0 0;
+}
+
+.section-2 .one{
+    padding: 0 0 50px 0
+}
+
+.section-2 h1{
+    font-size: 60px
 }
 
 .section-3{
     background-image: url(../images/become-2.jpg);
-    height: 100%;
+    height: auto;
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
+    background-size: cover;
     color: white;
-    text-align: left
+    padding: 70px 0 70px 0
 }
 
 .section-3 h1{
-    margin-top: 50px
+    margin-top: 50px;
+    font-weight: bolder
+}
+
+.section-4{
+    height: auto;
+    color: #24004a;
+    padding: 70px 0 70px 0;
+    text-align: center
+}
+
+.section-4 h2{
+    padding: 20px
+}
+
+.section-4 .one{
+    margin-top: 30px
+}
+
+.btn-explore {
+    background-color: #24004a;
+    padding: 10px 15px;
+    border: 0;
+    color: #fff
+}
+
+.btn-join {
+    background-color: #fff;
+    padding: 10px 20px;
+    color: #24004a;
+
+}
+
+@media screen and (max-width:420px){
+
 }

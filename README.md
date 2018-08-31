@@ -1,2 +1,3 @@
 # unsigned
-Lansing page for unsigned afrika
+Unsigned Afrika is a music streaming platform for upcoming artistes.
+This is Landing page for unsigned afrika
